@@ -3,7 +3,7 @@
 ---
 
 ## How to build your own games
-This is an small guide to start making games for Bittboy/PocketGo (not for beginners). Thanks to **crait** for this guide and **gameblabla** for his updates.
+This is an small guide to start making games for Bittboy/PocketGo (not for beginners).
 
 ## SDL 1.2 keys (MiyooCFW 1.3.3)
 Physical button bindings for Miyoo 1'st gen consoles (Bittboy's in round brackets)
