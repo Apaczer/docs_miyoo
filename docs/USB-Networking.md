@@ -12,24 +12,33 @@
 
 ***
 
-For the below modes you need the USB OTG "Y" cable (male type C, see pic) to supply power from the charger to the external device since handheld doesn't provide it, as well for the USB bus to be active.
+For the below modes you need the USB OTG "Y" cable (male type C, see pic) aka "USB splitter" to supply power from the charger to the external device since handheld doesn't provide it, as well for the USB bus to be active.
 
 ![type_c_cable](imgs/type_c_cable.jpg)
 
-### Connect Android phone with USB tethering:
-
-
+### Connect using USB CDC-Ethernet device :
+(WARNING: need external power)
 1. Start USB HOST mode
-2. Connect Android phone (WARNING: need external power) and enable USB tethering
-3. Start DHCP client app - to acquire IP address from android phone with enabled USB tethering
-4. check the assigned IP in the show IP addr app
+2. Connect USB splitter to power & handheld
+3. Connect USB Ethernet device with internet connection (e.g via RJ45) to established USB splitter
+4. Start DHCP client app - to acquire IP address from your local server
+5. Check the assigned IP in the show IP addr app
+
+### Connect Android phone with USB tethering:
+(WARNING: need external power)
+1. Start USB HOST mode
+2. Connect USB splitter to power & handheld
+3. Connect Android device to established USB splitter and enable USB tethering
+4. Start DHCP client app - to acquire IP address from android phone with enabled USB tethering
+5. Check the assigned IP in the show IP addr app
 
 
 ***
 
 ### Connect two handhelds with USB tethering:
-
+(WARNING: need external power)
 1. Start USB HOST mode on the first handheld
-2. Connect second handheld (WARNING: need external power)
-3. Start DHCP client app - to acquire IP address from first handheld
-4. check the assigned IP in the show IP addr app
+2. Connect USB splitter to power & first handheld
+3. Connect second handheld to established USB splitter
+4. Start DHCP client app - to acquire IP address from first handheld
+5. Check the assigned IP in the show IP addr app
