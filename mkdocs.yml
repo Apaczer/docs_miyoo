@@ -10,6 +10,7 @@ theme:
   #favicon: images/favicon.png
   logo: imgs/miyoocfw-logo.svg
   name: material
+  custom_dir: overrides
   palette:
     primary: black
     scheme: slate
